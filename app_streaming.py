@@ -20,7 +20,6 @@ from pyspark.sql.functions import explode, split
 
 st.set_page_config(
     page_title="Práctica de Apache Spark Structured Streaming",
-    page_icon="⚡",
     layout="wide",
 )
 
@@ -99,7 +98,7 @@ def ejecutar_flujo_memoria(spark, frases, modo_salida="complete", trigger_seg=No
     return lotes_capturados
 
 
-st.title("⚡ Práctica de Apache Spark Structured Streaming")
+st.title("Práctica de Apache Spark Structured Streaming")
 st.markdown(
     "Panel interactivo para ejecutar en vivo cada sección de la práctica de **Streaming en Spark** sin usar paréntesis para hacer énfasis."
 )
